@@ -1,0 +1,69 @@
+.menu-background {
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh;
+    width: 95vw;
+    background-color: #2f2e47; */
+}
+
+
+.menu-container {
+    width: 300px;
+    height: 300px;
+    padding: 40px;
+    text-align: center;
+    background-color: #636987;
+    border-radius: 8px;
+}
+
+.logo {
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+
+.o {
+    width: 0.8em;
+    height: 0.8em;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+}
+.g{
+    font-size: 35px;
+    color: rgb(216, 253, 98)
+}
+
+.menu-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.button {
+    display: flex;
+    padding: 12px 24px;/*GOES ALONG WITH BUTTONS TO ADJUST TO TEXT*/
+    align-items: center;
+    justify-content: center;
+    border-color: rgb(216, 253, 98);
+    border-width: 2px;
+    border-style:solid;
+    border-radius: 8px;
+    background-color:#3F4054;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.1em;
+    cursor: pointer;
+    margin: 10px 0;
+    width: 180px;
+}
+
+.icon {
+   color: rgb(216, 253, 98);
+   margin-right: 8px;
+   font-size: 20px;
+}
