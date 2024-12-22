@@ -174,6 +174,8 @@ const Adversaries = () => {
         const gameInterval = setInterval(renderGame, 1000 / 60);
         const keyPressInterval = setInterval(movePaddle, 1000 / 60);
         return () => {
+            if (wsRef.current)
+                    wsRef.current.close();
             clearInterval(gameInterval);
             clearInterval(keyPressInterval);
             window.removeEventListener('keydown', handleKeyDown);
